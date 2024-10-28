@@ -1,0 +1,11 @@
+apply plugin: 'java-library'
+
+compileJava {
+    sourceCompatibility = 1.6
+    targetCompatibility = 1.6
+}
+
+dependencies {
+    implementation project(':webos21-java')
+    testImplementation 'junit:junit:4.13.1'
+}
